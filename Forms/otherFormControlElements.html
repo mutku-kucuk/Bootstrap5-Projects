@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<title>From Control</title>
+</head>
+<body>
+
+<div class="container mt-4">
+	<h1 class="mb-4 mt-2">Form Contorl</h1>
+	
+	<hr>
+	<h2 class="mb-4 mt-2">Select</h2>
+
+
+	<div class="col-md-6">
+		<form>
+			<select class="form-select">
+				<option value="Php">Php</option>
+				<option value="Js">Js</option>
+				<option selected value="Jquery">Jquey</option>
+				<option value="Bootstrap 5">Bootstrap</option>
+			</select>
+		</form>
+	</div>
+
+	<br><br>
+
+	<h2 class="mb-4 mt-2">Select (Multiple)</h2>
+	
+
+	<div class="col-md-6">
+		<form>
+			<select class="form-select" multiple>
+				<option value="Php">Php</option>
+				<option selected value="Js">Js</option>
+				<option selected value="Jquery">Jquey</option>
+				<option value="Bootstrap 5">Bootstrap</option>
+			</select>
+		</form>
+	</div>
+
+
+
+	<h2 class="mb-4 mt-2">Checks</h2>
+	
+
+	<div class="col-md-6 border p-4">
+		<form>
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" name="">
+				<label class="form-check-label">Checkbox</label>
+			</div>
+
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" disabled name="">
+				<label class="form-check-label">Checkbox</label>
+			</div>
+		</form>
+	</div>
+
+	<h2 class="mb-4 mt-2">Radio</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<div class="form-check">
+				<input type="radio" class="form-check-input" name="1">
+				<label class="form-check-label">Radio1</label>
+			</div>
+
+			<div class="form-check">
+				<input type="radio" class="form-check-input" checked name="1">
+				<label class="form-check-label">Radio2</label>
+			</div>
+
+			<div class="form-check">
+				<input type="radio" class="form-check-input" disabled name="1">
+				<label class="form-check-label">Radio2</label>
+			</div>
+		</form>
+	</div>
+
+
+	<h2 class="mb-4 mt-2">Switch</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<div class="form-check form-switch">
+				<input type="checkbox" class="form-check-input" name="">
+				<label class="form-check-label">Switch</label>
+			</div>
+
+			<div class="form-check form-switch">
+				<input type="checkbox" class="form-check-input" checked name="">
+				<label class="form-check-label">Switch</label>
+			</div>
+
+			<div class="form-check form-switch">
+				<input type="checkbox" class="form-check-input" disabled name="">
+				<label class="form-check-label">Switch</label>
+			</div>
+		</form>
+	</div>
+
+	<h2 class="mb-4 mt-2">Inline</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<div class="form-check form-check-inline">
+				<input type="checkbox" class="form-check-input" name="">
+				<label class="form-check-label">Php</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input type="checkbox" class="form-check-input" name="">
+				<label class="form-check-label">Javascript</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input type="checkbox" class="form-check-input" name="">
+				<label class="form-check-label">Bootstrap 5</label>
+			</div>
+		</form>
+	</div>
+
+
+	<h2 class="mb-4 mt-2">Toggle Buttons</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+
+			<input type="checkbox" class="btn-check" id="btn-check" name="">
+			<label class="btn btn-primary" for="btn-check">Php Kursu</label>
+
+		</form>
+	</div>
+
+
+	<h2 class="mb-4 mt-2">Range</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<label for="cutoRange1" class="form-label">Select Range</label>
+			<input type="range" class="form-range" name="" id="customRange1">
+		</form>
+	</div>
+
+	<h2 class="mb-4 mt-2">Range (Disable)</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<label for="cutoRange1" class="form-label">Select Range</label>
+			<input type="range" disabled class="form-range" name="" id="customRange1">
+		</form>
+	</div>
+
+	<h2 class="mb-4 mt-2">Range (Min-Max)</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<label for="cutoRange1" class="form-label">Select Range</label>
+			<input type="range" class="form-range" name="" id="customRange1" min="1" max="20">
+		</form>
+	</div>
+
+
+	<h2 class="mb-4 mt-2">Range (Min-Max) Step</h2>
+	
+	<div class="col-md-6 border p-4">
+		<form>
+			<label for="cutoRange1" class="form-label">Select Range</label>
+			<input type="range" class="form-range" name="" id="customRange1" min="1" max="20" step="2">
+		</form>
+	</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</body>
+</html>
